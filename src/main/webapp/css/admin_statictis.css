@@ -1,0 +1,58 @@
+﻿.wrap-container {
+    margin-top: 80px;
+}
+
+.stat-card {
+    background-color: #202125;
+    color: #fff;
+    width: 100%;
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
+}
+
+    .stat-card:hover {
+        opacity: 1;
+        scale: 1.1;
+        cursor: pointer;
+    }
+
+.big-card {
+    height: 200px;
+    border-radius: 20px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.small-card {
+    height: 80px;
+    border-radius: 8px;
+    padding: 4px;
+    text-align: left;
+}
+
+.big-icon {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.small-icon {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.chart {
+    padding: 2rem;
+    border-radius: 1rem;
+    background: #202125;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.8);
+    height: 400px;
+    width: 100%;
+    opacity: 0.8;
+    transition: all 0.5s ease-in-out;
+}
+
+    .chart:hover {
+        opacity: 1;
+        scale: 1.05;
+        cursor: pointer;
+    }
